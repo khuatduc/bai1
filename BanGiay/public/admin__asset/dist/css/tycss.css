@@ -1,0 +1,7 @@
+div.dataTables_length label {
+    visibility: hidden!important;
+}
+
+div#dataTables-example_info {
+    visibility: hidden;
+}
