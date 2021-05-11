@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="Bai.js"></script>
+    <style>
+        div#them {
+    width: 60%;
+    height: 600px;
+    background: #b0d4c34a;
+    overflow: hidden;
+    border: 1px solid;
+    margin: 0 auto;
+}
+
+.noidung {
+    width: 60%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <ul class="nav justify-content-center" style="display:flex;margin-left: 100px;">
+            <li class="nav-item">
+                <a class="nav-link active" id="btnAdd" href="#">Them </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">sua</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#">xoa</a>
+            </li>
+        </ul>
+    </div>
+   <div class="container">
+       <div class="row">
+           <div class="col-md-8 offset-2">
+            <table class="table table-striped table-inverse table-responsive">
+                <thead class="thead-inverse">
+                    <tr>
+                        <th>ID</th>
+                        <th>NAME</th>
+                        <th>EMAIL</th>
+                        <th>SDT</th>
+                        <th>ADDRESS</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                       
+                        <tr>
+                            <td scope="row">A1</td>
+                            <td>KHUAT DUC</td>
+                            <td>@</td>
+                            <td>123463</td>
+                            <td>HANOI</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">A1</td>
+                            <td>KHUAT DUC</td>
+                            <td>@</td>
+                            <td>123463</td>
+                            <td>HANOI</td>
+                        </tr>
+                    </tbody>
+            </table>
+           </div>
+       </div>
+   </div>
+   <div id="them">
+   <div class="container">
+    <div class="row">
+        <div class="col-sm-6 offset-sm-3 ">
+         <div class="noidung">
+             <div class="tideude"></div>
+             <div class="container">
+                 <form>
+                     <div class="form-group row">
+                         <label for="inputName" class="col-sm-1-12 col-form-label">Mã nhân viên</label>
+                         <div class="col-sm-1-12">
+                             <input type="text" class="form-control" name="inputName" id="inputId" placeholder="">
+                         </div>
+                     </div>
+                     <div class="form-group row">
+                      <label for="inputName" class="col-sm-1-12 col-form-label">tên</label>
+                      <div class="col-sm-1-12">
+                          <input type="text" class="form-control" name="inputName" id="inputName" placeholder="">
+                      </div>
+                  </div>
+                  <div class="form-group row">
+                      <label for="inputName" class="col-sm-1-12 col-form-label">Email</label>
+                      <div class="col-sm-1-12">
+                          <input type="text" class="form-control" name="inputName" id="inputEmail" placeholder="">
+                      </div>
+                  </div>
+                  <div class="form-group row">
+                      <label for="inputName" class="col-sm-1-12 col-form-label">SDT</label>
+                      <div class="col-sm-1-12">
+                          <input type="text" class="form-control" name="inputName" id="inputPhone" placeholder="">
+                      </div>
+                  </div>
+                  <div class="form-group row">
+                      <label for="inputName" class="col-sm-1-12 col-form-label">Công ty</label>
+                      <div class="col-sm-1-12">
+                          <input type="text" class="form-control" name="inputName" id="inputAddress" placeholder="">
+                      </div>
+                  </div>
+                     <div class="form-group row">
+                         <div class="offset-sm-2 col-sm-10">
+                             <button id="xac" class="btn btn-primary">xac nhnn</button>
+                             <button id="dong" class="btn btn-primary">Dong</button>
+                         </div>
+                     </div>
+                 </form>
+             </div>
+         </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
